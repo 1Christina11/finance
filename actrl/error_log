@@ -1,0 +1,10 @@
+[23-Mar-2023 14:25:05 UTC] PHP Warning:  require_once(/home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/CodeIgniter.php): failed to open stream: No such file or directory in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/index.php on line 315
+[23-Mar-2023 14:25:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/CodeIgniter.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/index.php on line 315
+[23-Mar-2023 14:25:06 UTC] PHP Warning:  require_once(/home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/CodeIgniter.php): failed to open stream: No such file or directory in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/index.php on line 315
+[23-Mar-2023 14:25:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/CodeIgniter.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/index.php on line 315
+[23-Mar-2023 14:25:08 UTC] PHP Fatal error:  Uncaught Error: Class 'CI_Exceptions' not found in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/Common.php:197
+Stack trace:
+#0 /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/Common.php(653): load_class('Exceptions', 'core')
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown in /home/ghdtnh63yyx4/public_html/gcsfinancialcorp.com/actrl/system/core/Common.php on line 197
